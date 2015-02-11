@@ -5,6 +5,8 @@ default: &default
   port: 5432
   pool: 5
   timeout: 5000
+  username: jjxaszghypbpry
+  password: y37RJxsDS0aZvCPfIStiOD6-sV
 
 development:
   <<: *default
