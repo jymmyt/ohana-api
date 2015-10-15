@@ -30,7 +30,7 @@ RUN apt-get install -y postgresql-client
 RUN curl -sL https://deb.nodesource.com/setup | bash -
 RUN apt-get -y install nodejs
 
-#Install PhantomJS
+#Install PhantomJS, install
 RUN wget -q https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-x86_64.tar.bz2
 RUN tar xjf phantomjs-1.9.7-linux-x86_64.tar.bz2
 RUN install -t /usr/local/bin phantomjs-1.9.7-linux-x86_64/bin/phantomjs
